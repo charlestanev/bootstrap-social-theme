@@ -1,10 +1,10 @@
 body {
-  background: #333;
-  color: #fff;
+  background: #3F4531;
+  color: #D4CBE5;
 }
 
 .navbar {
-  border-bottom: #008ed6 3px solid;
+  border-bottom: #91F9E5 3px solid;
   opacity: 0.8;
 }
 
@@ -22,7 +22,7 @@ body {
   left: 0;
   width: 100%;
   min-height: 700px;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(63, 69, 49, 0.7);
 }
 
 #home-section .home-inner {
@@ -33,17 +33,18 @@ body {
   opacity: 0.8;
 }
 
-#home-section .fas {
-  color: #008ed6;
-  background: #fff;
+#home-section .fas,
+#create-section .fas {
+  color: #91F9E5;
+  background: #D4CBE5;
   padding: 5px;
   border-radius: 5px;
 }
 
 #explore-section .fas,
 #share-section .fas {
-  background: #333;
-  color: #fff;
+  background: #3F4531;
+  color: #D4CBE5;
   padding: 5px;
   border-radius: 5px;
 }
